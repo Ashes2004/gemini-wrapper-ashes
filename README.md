@@ -40,7 +40,7 @@ import { Gemini } from "gemini-wrapper-by-ashes";
 
 const ai = new Gemini({
   apiKey: process.env.GEMINI_API_KEY!,
-  model: "gemini-1.5-flash",
+  model: "gemini-2.5-flash",
   instruction: "You are a helpful assistant"
 });
 
