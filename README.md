@@ -44,8 +44,10 @@ const ai = new Gemini({
   instruction: "You are a helpful assistant"
 });
 
+(async()=>{
 const response = await ai.ask("Explain TypeScript generics");
 console.log(response);
+})();
 ```
 
 ---
