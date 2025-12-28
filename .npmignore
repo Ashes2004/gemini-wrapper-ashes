@@ -1,0 +1,23 @@
+# Source files
+src/
+
+# TypeScript config
+tsconfig.json
+
+# Build tools
+tsup.config.ts
+
+# Node / npm
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Tests
+tests/
+__tests__/
+
+# Logs & misc
+*.log
+.env
+.env.*
