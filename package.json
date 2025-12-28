@@ -1,20 +1,25 @@
 {
   "name": "gemini-wrapper-by-ashes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "type": "module",
-
   "main": "dist/index.cjs",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
-
-  "files": ["dist"],
-  "keywords": ["gemini", "ai", "llm", "google", "sdk"],
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "gemini",
+    "ai",
+    "llm",
+    "google",
+    "sdk"
+  ],
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts",
     "dev": "tsup src/index.ts --watch"
   },
-
   "dependencies": {
     "@google/generative-ai": "^0.24.1"
   },
@@ -23,7 +28,6 @@
     "tsup": "^8.5.1",
     "typescript": "^5.9.3"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Ashes2004/gemini-wrapper-ashes.git"
@@ -32,6 +36,5 @@
     "url": "https://github.com/Ashes2004/gemini-wrapper-ashes/issues"
   },
   "homepage": "https://github.com/Ashes2004/gemini-wrapper-ashes#readme",
-
   "license": "ISC"
 }
